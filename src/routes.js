@@ -10,8 +10,8 @@ function Routes() {
     <div className="App">
       <Header />
       <Switch>
-        <Route path="/movieApp" exact component={Home} />
-        <Route path="/movieApp/movie/:id" exact component={MovieDetails} />
+        <Route path="/" exact component={Home} />
+        <Route path="/movie/:id" exact component={MovieDetails} />
       </Switch>
     </div>
   );
