@@ -11,7 +11,7 @@ function Routes() {
       <Header />
       <Switch>
         <Route path="/movieApp" exact component={Home} />
-        <Route path="/movie/:id" exact component={MovieDetails} />
+        <Route path="/movieApp/movie/:id" exact component={MovieDetails} />
       </Switch>
     </div>
   );
